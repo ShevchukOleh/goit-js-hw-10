@@ -5,8 +5,9 @@ function fetchCountries(countryName) {
             throw new Error(res.statusText)
         }
         return res.json()
-    } 
-)
+    }).catch(err => {
+      console.log(err);
+    });
 };
 
 export default {fetchCountries} 

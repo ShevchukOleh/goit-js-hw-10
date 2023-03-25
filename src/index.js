@@ -63,10 +63,10 @@ if (country.length > 10) {
 }
 
 function onFetchError() { 
-    Notiflix.Notify.failure('Oops, there is no country with that name');
+  Notiflix.Notify.failure('Oops, there is no country with that name');
 };
 
 function resetMarkup() {
-    countryInfo.innerHTML = '';
-    countryList.innerHTML = '';
+  countryInfo.innerHTML = '';
+  countryList.innerHTML = '';
 }

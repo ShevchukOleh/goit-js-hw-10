@@ -45,9 +45,11 @@ body {
 .country-info__imgContainer{
   display: flex;
   gap: 10px;
+  align-items: center;
 }
 .country-info__img{
-  width: 34px;
+  width: 35px;
+  height: 30px;
 }
 .country-info__title{
   font-size: 18px;

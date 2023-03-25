@@ -26,7 +26,7 @@ function onSearch (e) {
   
   API.fetchCountries(seekedCountry)
     .then(renderMarkup)
-    .catch(onFetchError)
+    .catch(onFetchError);
 };
 
 function renderMarkup(country) { 
